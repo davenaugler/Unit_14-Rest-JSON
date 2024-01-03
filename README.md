@@ -7,6 +7,6 @@
 - Arrays are represented by square brackets `[]`
 
 ## 02 - Converting JSON Strings to Java and Back
-- Downloading someone else's code, 
+- Downloading someone else's code. In this case it's within our Spring-Boot Maven project (Jackson databind).
 - Task: Take a Java Object and convert it into a JSON String and then visa versa
    - Used [Jackson databind](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind) to perform the local lifecycle of a JSON String, modify the JSON, and ouput the JSON String
