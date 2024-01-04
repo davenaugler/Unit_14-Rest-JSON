@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PersonController {
 
     @PostMapping("/persons")
-    public Person createPerson(@RequestParam String name, @RequestParam Integer age, @RequestParam(required = false) String gender) {
+    public Person createPerson(String name, Integer age, String gender) {
         Person person = new Person();
         person.setName(name);
         person.setAge(age);

@@ -13,6 +13,9 @@
 
 ## 03 - Sending Data to Java via Post Request
 - Learned to pass data from a web request, using Postman
+- Put @RequestParam's within the `createPerson` class.
+   - Made `gender` optional by adding `@RequestParam(required = false)`
+- Status: 200 OK
 - Doing it this way we sent `name`, `age`, and `gender` via Query Params through the ULR
 - Doing this exposes our data
   - **Pros:** Quick and easy, stateless, and there's no need for session management
@@ -20,3 +23,9 @@
 
 
 ## 04 - Omitting RequestParam Annotation
+- Removed the @RequestParam annotations within the `createPerson` class
+- Class still successfully runs and returns us our object as it did before within the URL
+- Feature of doing it this way is that you can not specify required fields.
+   - Doing it this way, none of the fields within the `createPerson` class are required. 
+   - So if you leave out `age` it's totally fine and returns `age` as null
+- Status: 200 OK
