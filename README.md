@@ -12,6 +12,11 @@
    - Used [Jackson databind](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind) to perform the local lifecycle of a JSON String, modify the JSON, and ouput the JSON String
 
 ## 03 - Sending Data to Java via Post Request
+- Learned to pass data from a web request, using Postman
+- Doing it this way we sent `name`, `age`, and `gender` via Query Params through the ULR
+- Doing this exposes our data
+  - **Pros:** Quick and easy, stateless, and there's no need for session management
+  - **Cons:** Security risks, data size limitations, caching issues, and unpleasant user experience 
 
 
 ## 04 - Omitting RequestParam Annotation
