@@ -31,4 +31,12 @@
 - Status: 200 OK
 
 ## 05 - Request Header and Body
-- Learning the difference btween sending data via URL and sending data within the Body of the request via POST 
+- Learning the difference between sending data via URL and sending data within the Body of the request via POST 
+  - GET Request: Getting data from the server to HTML
+  - POST Request: Sending data from HTML to the server (using the Body of the Post request to send the data)
+
+## 06 - Path Variables
+- Sending path variables through GET request using Postman
+
+## 07 - Mocking a Repository
+-
