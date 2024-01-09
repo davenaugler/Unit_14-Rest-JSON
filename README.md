@@ -39,4 +39,9 @@
 - Sending path variables through GET request using Postman
 
 ## 07 - Mocking a Repository
--
+- Come back to
+
+## 08 - Rest Calls with Spring
+- Come back to
+
+## 09 - Mapping JSON Response to Java Objects
