@@ -42,6 +42,7 @@
 - Come back to
 
 ## 08 - Rest Calls with Spring
-- Come back to
+- Went to [Alpha Vantage](https://www.alphavantage.co/) to play with their free API Key
+- Reviewed their documentation
 
 ## 09 - Mapping JSON Response to Java Objects
