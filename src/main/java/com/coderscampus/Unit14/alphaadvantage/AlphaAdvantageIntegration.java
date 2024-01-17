@@ -15,6 +15,7 @@ public class AlphaAdvantageIntegration {
         // Allows you to make RESTFUL calls (fetch or send data)
         RestTemplate rt = new RestTemplate();
         // getForEntity and postForEntity are convenience methods, which pre-fill one of the Parameters for the exchange method
+        // https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo
         URI uri = UriComponentsBuilder.fromHttpUrl("https://www.alphavantage.co/query")
                 .queryParam("function", "TIME_SERIES_INTRADAY")
                 .queryParam("symbol", "TSLA")

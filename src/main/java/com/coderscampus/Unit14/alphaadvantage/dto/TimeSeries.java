@@ -13,17 +13,17 @@ public class TimeSeries {
     // goes as far back as 495 minutes or 8 hours and 15 minutes, at any given time
     // Not ideal, but it works
 
-    @JsonProperty("2024-01-12 19:55:00")
+    @JsonProperty("2024-01-16 19:55:00")
     private StockData stockData1;
-    @JsonProperty("2024-01-12 19:50:00")
+    @JsonProperty("2024-01-16 19:50:00")
     private StockData stockData2;
-    @JsonProperty("2024-01-12 19:45:00")
+    @JsonProperty("2024-01-16 19:45:00")
     private StockData stockData3;
-    @JsonProperty("2024-01-12 19:40:00")
+    @JsonProperty("2024-01-16 19:40:00")
     private StockData stockData4;
-    @JsonProperty("2024-01-12 19:35:00")
+    @JsonProperty("2024-01-16 19:35:00")
     private StockData stockData5;
-    @JsonProperty("2024-01-12 11:40:00")
+    @JsonProperty("2024-01-16 11:40:00")
     private StockData stockData6;
 
 }
